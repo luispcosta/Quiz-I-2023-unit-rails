@@ -1,5 +1,7 @@
 class Appointment < ApplicationRecord
 
+    APPOINTMENT_STATUS = ['pending', 'confirmed', 'canceled', 'rescheduled']
+
     scope :pending, -> { where(status: APPOINTMENT_STATUS[0]) }
     scope :rescheduled, -> { where(status: APPOINTMENT_STATUS[3]) }
     scope :canceled, -> { where(status: APPOINTMENT_STATUS[2]) }
