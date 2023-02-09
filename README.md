@@ -1,6 +1,8 @@
 # QUIZ I . 2023 #unit Rails #
 ## Fat Model, Skinny Controller ##
 
+** Rails 6 or 7 **
+
 Models are a core component of the MVC architecture where **all the business logic is supposed to go**. Saying ‘supposed to’ because it’s not always best to put everything in the model.
 
 ### The Problem? ###
